@@ -4,17 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nancy Patel</title>
+    <meta name="description" content="Nancy Patel — machine learning engineer." />
     <style>
       body {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 100vh;
+        min-height: 100vh;
         font-family: 'VCR OSD Mono', monospace;
         text-align: center;
         margin: 0;
-        position: relative;
+        padding: 40px 16px;
+        box-sizing: border-box;
       }
 
       a {
@@ -31,22 +33,43 @@
         margin: 10px 0;
       }
 
-      .coming-soon {
-        position: absolute;
-        bottom: 20px;
-        color: lightblue;
+      .work {
+        margin: 24px 0 32px;
+        max-width: 520px;
+      }
+
+      .project {
+        margin: 18px 0;
+      }
+
+      .project p {
+        margin: 4px 0 0;
+        color: #555;
       }
     </style>
   </head>
 
   <body>
     <h1>Nancy Patel</h1>
-    <br />
-    <div class="readcv"><a href="https://read.cv/nancypatel" target="_blank"> > Read.CV</a></div>
-    <br>
-    <div class="copy email">
+
+    <div class="work">
+      <div class="project">
+        <a href="https://github.com/nancypatel12/trainleak" target="_blank">> trainleak</a>
+        <p>Does your model leak its training data? Find out in one line.</p>
+      </div>
+      <div class="project">
+        <a href="https://github.com/nancypatel12/riskline" target="_blank">> riskline</a>
+        <p>Credit default risk, end to end. Calibrated, served, monitored.</p>
+      </div>
+      <div class="project">
+        <a href="https://chromewebstore.google.com/detail/memopad/omcpfoipabmmcjpooadjcioiejenaopa" target="_blank">> Memopad</a>
+        <p>Notes that understand what you meant. Private, on your device.</p>
+      </div>
+    </div>
+
+    <div class="links"><a href="https://github.com/nancypatel12" target="_blank">> GitHub</a></div>
+    <div class="links">
       <a href="#" onclick="navigator.clipboard.writeText('nancy129.patel@gmail.com'); return false;">> Copy Email</a>
     </div>
-    <div class="coming-soon">new portfolio coming soon!</div>
   </body>
 </html>
